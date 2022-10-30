@@ -34,9 +34,7 @@ class CustomListItem extends StatelessWidget {
           ),
           PopupMenuButton<Menu_inventory>(
               // Callback that sets the selected popup menu item.
-              onSelected: (Menu_inventory item) {
-                
-              },
+              onSelected: (Menu_inventory item) {},
               itemBuilder: (BuildContext context) =>
                   <PopupMenuEntry<Menu_inventory>>[
                     const PopupMenuItem<Menu_inventory>(

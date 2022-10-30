@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:inventory/page/page_inventory.dart';
 import 'package:inventory/widgets/inventory_list.dart';
 
-
-
 void main() {
   runApp(const MyApp());
 }
@@ -20,6 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.grey,
       ),
       home: const MyHomePage(title: 'Inventaire'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
